@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class name="Pom1" extends="Actor" extends-java="Actor" enable="true" strideversion="1">
+    <javadoc xml:space="preserve"/>
+    <imports>
+        <import target="java.util.*" enable="true"/>
+        <import target="greenfoot.*" enable="true"/>
+    </imports>
+    <implements/>
+    <fields/>
+    <constructors/>
+    <methods>
+        <method access="public" type="void" type-java="void" name="act" enable="true">
+            <javadoc xml:space="preserve">Act - do whatever the Pom1 wants to do. This method is called whenever the 'Act' or 'Run' button gets pressed in the environment.</javadoc>
+            <params/>
+            <throws/>
+            <body>
+                <call expression="this.setLocation(this.getX(),this.getY()+1)" expression-java="this.setLocation(this.getX(), this.getY() + 1)" enable="true"/>
+                <if condition="Greenfoot.isKeyDown(&quot;up&quot;)" condition-java="Greenfoot.isKeyDown(&quot;up&quot;)" enable="true">
+                    <ifStatements>
+                        <call expression="this.setLocation(this.getX(),this.getY()+1)" expression-java="this.setLocation(this.getX(), this.getY() + 1)" enable="true"/>
+                    </ifStatements>
+                </if>
+                <if condition="getY()==399" condition-java="getY() == 399" enable="true">
+                    <ifStatements>
+                        <call expression="setLocation(Greenfoot.getRandomNumber(125),25)" expression-java="setLocation(Greenfoot.getRandomNumber(125), 25)" enable="true"/>
+                    </ifStatements>
+                </if>
+            </body>
+        </method>
+    </methods>
+</class>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class name="autostrada" extends="World" extends-java="World" enable="true" strideversion="1">
+    <javadoc xml:space="preserve"/>
+    <imports>
+        <import target="java.util.*" enable="true"/>
+        <import target="greenfoot.*" enable="true"/>
+    </imports>
+    <implements/>
+    <fields/>
+    <constructors>
+        <constructor access="public" enable="true">
+            <javadoc xml:space="preserve">Constructor for objects of class autostrada.</javadoc>
+            <params/>
+            <throws/>
+            <delegate target="super" params="600,400,1" params-java="600, 400, 1"/>
+            <body>
+                <call expression="prepare()" expression-java="prepare()" enable="true"/>
+            </body>
+        </constructor>
+    </constructors>
+    <methods>
+        <method access="private" type="void" type-java="void" name="prepare" enable="true">
+            <javadoc xml:space="preserve">Prepare the world for the start of the program.
+That is: create the initial objects and add them to the world.</javadoc>
+            <params/>
+            <throws/>
+            <body>
+                <variable type="Pom1" type-java="Pom1" name="pom1" value="new Pom1()" value-java=" new Pom1()" enable="true"/>
+                <call expression="addObject(pom1,40,51)" expression-java="addObject(pom1, 40, 51)" enable="true"/>
+                <variable type="Pom1" type-java="Pom1" name="pom12" value="new Pom1()" value-java=" new Pom1()" enable="true"/>
+                <call expression="addObject(pom12,108,162)" expression-java="addObject(pom12, 108, 162)" enable="true"/>
+                <variable type="Pom1" type-java="Pom1" name="pom13" value="new Pom1()" value-java=" new Pom1()" enable="true"/>
+                <call expression="addObject(pom13,34,189)" expression-java="addObject(pom13, 34, 189)" enable="true"/>
+                <call expression="pom12.setLocation(90,133)" expression-java="pom12.setLocation(90, 133)" enable="true"/>
+                <call expression="pom13.setLocation(32,185)" expression-java="pom13.setLocation(32, 185)" enable="true"/>
+                <variable type="Pom1" type-java="Pom1" name="pom14" value="new Pom1()" value-java=" new Pom1()" enable="true"/>
+                <call expression="addObject(pom14,119,278)" expression-java="addObject(pom14, 119, 278)" enable="true"/>
+                <variable type="Pom1" type-java="Pom1" name="pom15" value="new Pom1()" value-java=" new Pom1()" enable="true"/>
+                <call expression="addObject(pom15,52,338)" expression-java="addObject(pom15, 52, 338)" enable="true"/>
+                <variable type="Pom1" type-java="Pom1" name="pom16" value="new Pom1()" value-java=" new Pom1()" enable="true"/>
+                <call expression="addObject(pom16,532,60)" expression-java="addObject(pom16, 532, 60)" enable="true"/>
+                <call expression="pom14.setLocation(93,258)" expression-java="pom14.setLocation(93, 258)" enable="true"/>
+                <variable type="Pom1" type-java="Pom1" name="pom17" value="new Pom1()" value-java=" new Pom1()" enable="true"/>
+                <call expression="addObject(pom17,570,144)" expression-java="addObject(pom17, 570, 144)" enable="true"/>
+                <variable type="Pom1" type-java="Pom1" name="pom18" value="new Pom1()" value-java=" new Pom1()" enable="true"/>
+                <call expression="addObject(pom18,518,231)" expression-java="addObject(pom18, 518, 231)" enable="true"/>
+                <variable type="Pom1" type-java="Pom1" name="pom19" value="new Pom1()" value-java=" new Pom1()" enable="true"/>
+                <call expression="addObject(pom19,595,323)" expression-java="addObject(pom19, 595, 323)" enable="true"/>
+                <call expression="pom19.setLocation(572,301)" expression-java="pom19.setLocation(572, 301)" enable="true"/>
+                <variable type="Pom1" type-java="Pom1" name="pom110" value="new Pom1()" value-java=" new Pom1()" enable="true"/>
+                <call expression="addObject(pom110,523,367)" expression-java="addObject(pom110, 523, 367)" enable="true"/>
+                <call expression="removeObject(pom14)" expression-java="removeObject(pom14)" enable="true"/>
+                <call expression="removeObject(pom15)" expression-java="removeObject(pom15)" enable="true"/>
+                <call expression="pom13.setLocation(34,294)" expression-java="pom13.setLocation(34, 294)" enable="true"/>
+                <call expression="pom12.setLocation(95,164)" expression-java="pom12.setLocation(95, 164)" enable="true"/>
+                <call expression="removeObject(pom16)" expression-java="removeObject(pom16)" enable="true"/>
+                <call expression="removeObject(pom17)" expression-java="removeObject(pom17)" enable="true"/>
+                <call expression="removeObject(pom18)" expression-java="removeObject(pom18)" enable="true"/>
+                <call expression="removeObject(pom19)" expression-java="removeObject(pom19)" enable="true"/>
+                <call expression="removeObject(pom110)" expression-java="removeObject(pom110)" enable="true"/>
+                <variable type="Pomi2" type-java="Pomi2" name="pomi2" value="new Pomi2()" value-java=" new Pomi2()" enable="true"/>
+                <call expression="addObject(pomi2,510,80)" expression-java="addObject(pomi2, 510, 80)" enable="true"/>
+                <variable type="Pomi2" type-java="Pomi2" name="pomi22" value="new Pomi2()" value-java=" new Pomi2()" enable="true"/>
+                <call expression="addObject(pomi22,569,184)" expression-java="addObject(pomi22, 569, 184)" enable="true"/>
+                <variable type="Pomi2" type-java="Pomi2" name="pomi23" value="new Pomi2()" value-java=" new Pomi2()" enable="true"/>
+                <call expression="addObject(pomi23,523,319)" expression-java="addObject(pomi23, 523, 319)" enable="true"/>
+                <variable type="Linie" type-java="Linie" name="linie" value="new Linie()" value-java=" new Linie()" enable="true"/>
+                <call expression="addObject(linie,312,392)" expression-java="addObject(linie, 312, 392)" enable="true"/>
+                <call expression="linie.setLocation(309,386)" expression-java="linie.setLocation(309, 386)" enable="true"/>
+                <call expression="linie.getX()" expression-java="linie.getX()" enable="true"/>
+                <call expression="linie.setLocation(305,386)" expression-java="linie.setLocation(305, 386)" enable="true"/>
+                <call expression="linie.getX()" expression-java="linie.getX()" enable="true"/>
+                <call expression="linie.setLocation(302,385)" expression-java="linie.setLocation(302, 385)" enable="true"/>
+                <call expression="linie.getX()" expression-java="linie.getX()" enable="true"/>
+                <call expression="linie.setLocation(301,385)" expression-java="linie.setLocation(301, 385)" enable="true"/>
+                <call expression="linie.getX()" expression-java="linie.getX()" enable="true"/>
+                <call expression="linie.setLocation(296,385)" expression-java="linie.setLocation(296, 385)" enable="true"/>
+                <call expression="linie.setLocation(301,384)" expression-java="linie.setLocation(301, 384)" enable="true"/>
+                <call expression="linie.getX()" expression-java="linie.getX()" enable="true"/>
+                <call expression="linie.setLocation(299,383)" expression-java="linie.setLocation(299, 383)" enable="true"/>
+                <call expression="linie.getX()" expression-java="linie.getX()" enable="true"/>
+                <call expression="linie.setLocation(302,383)" expression-java="linie.setLocation(302, 383)" enable="true"/>
+                <call expression="linie.getX()" expression-java="linie.getX()" enable="true"/>
+                <call expression="linie.setLocation(300,383)" expression-java="linie.setLocation(300, 383)" enable="true"/>
+                <call expression="linie.getX()" expression-java="linie.getX()" enable="true"/>
+                <variable type="Linie" type-java="Linie" name="linie2" value="new Linie()" value-java=" new Linie()" enable="true"/>
+                <call expression="addObject(linie2,307,354)" expression-java="addObject(linie2, 307, 354)" enable="true"/>
+                <call expression="linie2.setLocation(298,28)" expression-java="linie2.setLocation(298, 28)" enable="true"/>
+                <call expression="linie2.getX()" expression-java="linie2.getX()" enable="true"/>
+                <call expression="linie2.setLocation(300,26)" expression-java="linie2.setLocation(300, 26)" enable="true"/>
+                <call expression="linie2.getX()" expression-java="linie2.getX()" enable="true"/>
+                <variable type="Linie" type-java="Linie" name="linie3" value="new Linie()" value-java=" new Linie()" enable="true"/>
+                <call expression="addObject(linie3,307,64)" expression-java="addObject(linie3, 307, 64)" enable="true"/>
+                <call expression="linie3.setLocation(300,56)" expression-java="linie3.setLocation(300, 56)" enable="true"/>
+                <call expression="linie3.setLocation(297,66)" expression-java="linie3.setLocation(297, 66)" enable="true"/>
+                <call expression="linie2.setLocation(300,30)" expression-java="linie2.setLocation(300, 30)" enable="true"/>
+                <call expression="linie2.setLocation(299,33)" expression-java="linie2.setLocation(299, 33)" enable="true"/>
+                <call expression="linie2.getX()" expression-java="linie2.getX()" enable="true"/>
+                <call expression="linie2.setLocation(302,34)" expression-java="linie2.setLocation(302, 34)" enable="true"/>
+                <call expression="linie2.setLocation(303,33)" expression-java="linie2.setLocation(303, 33)" enable="true"/>
+                <call expression="linie2.getX()" expression-java="linie2.getX()" enable="true"/>
+                <call expression="linie2.setLocation(298,34)" expression-java="linie2.setLocation(298, 34)" enable="true"/>
+                <call expression="linie2.getX()" expression-java="linie2.getX()" enable="true"/>
+                <call expression="linie2.setLocation(301,34)" expression-java="linie2.setLocation(301, 34)" enable="true"/>
+                <call expression="linie2.getX()" expression-java="linie2.getX()" enable="true"/>
+                <call expression="linie2.setLocation(298,34)" expression-java="linie2.setLocation(298, 34)" enable="true"/>
+                <call expression="linie2.getX()" expression-java="linie2.getX()" enable="true"/>
+                <call expression="linie2.setLocation(299,34)" expression-java="linie2.setLocation(299, 34)" enable="true"/>
+                <call expression="linie2.getX()" expression-java="linie2.getX()" enable="true"/>
+                <call expression="linie2.setLocation(300,33)" expression-java="linie2.setLocation(300, 33)" enable="true"/>
+                <call expression="linie2.getX()" expression-java="linie2.getX()" enable="true"/>
+                <call expression="linie3.setLocation(300,67)" expression-java="linie3.setLocation(300, 67)" enable="true"/>
+                <call expression="linie3.getX()" expression-java="linie3.getX()" enable="true"/>
+                <variable type="Linie" type-java="Linie" name="linie4" value="new Linie()" value-java=" new Linie()" enable="true"/>
+                <call expression="addObject(linie4,307,108)" expression-java="addObject(linie4, 307, 108)" enable="true"/>
+                <call expression="linie4.setLocation(301,99)" expression-java="linie4.setLocation(301, 99)" enable="true"/>
+                <call expression="linie4.getX()" expression-java="linie4.getX()" enable="true"/>
+                <call expression="linie4.setLocation(300,100)" expression-java="linie4.setLocation(300, 100)" enable="true"/>
+                <call expression="linie4.getX()" expression-java="linie4.getX()" enable="true"/>
+                <variable type="Linie" type-java="Linie" name="linie5" value="new Linie()" value-java=" new Linie()" enable="true"/>
+                <call expression="addObject(linie5,305,141)" expression-java="addObject(linie5, 305, 141)" enable="true"/>
+                <call expression="linie5.setLocation(299,132)" expression-java="linie5.setLocation(299, 132)" enable="true"/>
+                <call expression="linie5.setLocation(300,134)" expression-java="linie5.setLocation(300, 134)" enable="true"/>
+                <call expression="linie5.getX()" expression-java="linie5.getX()" enable="true"/>
+                <variable type="Linie" type-java="Linie" name="linie6" value="new Linie()" value-java=" new Linie()" enable="true"/>
+                <call expression="addObject(linie6,308,179)" expression-java="addObject(linie6, 308, 179)" enable="true"/>
+                <call expression="linie6.setLocation(300,167)" expression-java="linie6.setLocation(300, 167)" enable="true"/>
+                <call expression="linie6.getX()" expression-java="linie6.getX()" enable="true"/>
+                <variable type="Linie" type-java="Linie" name="linie7" value="new Linie()" value-java=" new Linie()" enable="true"/>
+                <call expression="addObject(linie7,307,206)" expression-java="addObject(linie7, 307, 206)" enable="true"/>
+                <call expression="linie7.setLocation(300,201)" expression-java="linie7.setLocation(300, 201)" enable="true"/>
+                <call expression="linie7.getX()" expression-java="linie7.getX()" enable="true"/>
+                <variable type="Linie" type-java="Linie" name="linie8" value="new Linie()" value-java=" new Linie()" enable="true"/>
+                <call expression="addObject(linie8,307,240)" expression-java="addObject(linie8, 307, 240)" enable="true"/>
+                <call expression="linie8.setLocation(300,235)" expression-java="linie8.setLocation(300, 235)" enable="true"/>
+                <variable type="Linie" type-java="Linie" name="linie9" value="new Linie()" value-java=" new Linie()" enable="true"/>
+                <call expression="addObject(linie9,306,281)" expression-java="addObject(linie9, 306, 281)" enable="true"/>
+                <call expression="linie9.setLocation(300,268)" expression-java="linie9.setLocation(300, 268)" enable="true"/>
+                <call expression="linie9.getX()" expression-java="linie9.getX()" enable="true"/>
+                <variable type="Linie" type-java="Linie" name="linie10" value="new Linie()" value-java=" new Linie()" enable="true"/>
+                <call expression="addObject(linie10,306,308)" expression-java="addObject(linie10, 306, 308)" enable="true"/>
+                <call expression="linie10.setLocation(301,301)" expression-java="linie10.setLocation(301, 301)" enable="true"/>
+                <call expression="linie10.getX()" expression-java="linie10.getX()" enable="true"/>
+                <call expression="linie10.setLocation(301,301)" expression-java="linie10.setLocation(301, 301)" enable="true"/>
+                <call expression="linie10.setLocation(301,301)" expression-java="linie10.setLocation(301, 301)" enable="true"/>
+                <call expression="linie10.setLocation(301,301)" expression-java="linie10.setLocation(301, 301)" enable="true"/>
+                <call expression="linie10.setLocation(301,301)" expression-java="linie10.setLocation(301, 301)" enable="true"/>
+                <call expression="linie10.setLocation(300,301)" expression-java="linie10.setLocation(300, 301)" enable="true"/>
+                <call expression="linie10.getX()" expression-java="linie10.getX()" enable="true"/>
+                <variable type="Linie" type-java="Linie" name="linie11" value="new Linie()" value-java=" new Linie()" enable="true"/>
+                <call expression="addObject(linie11,308,339)" expression-java="addObject(linie11, 308, 339)" enable="true"/>
+                <call expression="linie11.setLocation(301,332)" expression-java="linie11.setLocation(301, 332)" enable="true"/>
+                <call expression="linie11.getX()" expression-java="linie11.getX()" enable="true"/>
+                <call expression="linie11.setLocation(300,329)" expression-java="linie11.setLocation(300, 329)" enable="true"/>
+                <call expression="linie11.getX()" expression-java="linie11.getX()" enable="true"/>
+                <variable type="Linie" type-java="Linie" name="linie12" value="new Linie()" value-java=" new Linie()" enable="true"/>
+                <call expression="addObject(linie12,307,364)" expression-java="addObject(linie12, 307, 364)" enable="true"/>
+                <call expression="linie12.setLocation(299,354)" expression-java="linie12.setLocation(299, 354)" enable="true"/>
+                <call expression="linie12.setLocation(300,353)" expression-java="linie12.setLocation(300, 353)" enable="true"/>
+                <call expression="linie12.setLocation(300,353)" expression-java="linie12.setLocation(300, 353)" enable="true"/>
+                <call expression="linie12.setLocation(300,355)" expression-java="linie12.setLocation(300, 355)" enable="true"/>
+                <call expression="linie12.getX()" expression-java="linie12.getX()" enable="true"/>
+                <variable type="Masina1" type-java="Masina1" name="masina1" value="new Masina1()" value-java=" new Masina1()" enable="true"/>
+                <call expression="addObject(masina1,306,364)" expression-java="addObject(masina1, 306, 364)" enable="true"/>
+                <call expression="masina1.setLocation(301,356)" expression-java="masina1.setLocation(301, 356)" enable="true"/>
+                <variable type="Masini_sens_opus" type-java="Masini_sens_opus" name="masini_sens_opus" value="new Masini_sens_opus()" value-java=" new Masini_sens_opus()" enable="true"/>
+                <call expression="addObject(masini_sens_opus,215,51)" expression-java="addObject(masini_sens_opus, 215, 51)" enable="true"/>
+                <call expression="masini_sens_opus.turn(90)" expression-java="masini_sens_opus.turn(90)" enable="true"/>
+                <call expression="masini_sens_opus.setLocation(299,43)" expression-java="masini_sens_opus.setLocation(299, 43)" enable="true"/>
+                <variable type="Masini_sens_opus" type-java="Masini_sens_opus" name="masini_sens_opus2" value="new Masini_sens_opus()" value-java=" new Masini_sens_opus()" enable="true"/>
+                <call expression="addObject(masini_sens_opus2,227,127)" expression-java="addObject(masini_sens_opus2, 227, 127)" enable="true"/>
+                <call expression="masini_sens_opus2.turn(90)" expression-java="masini_sens_opus2.turn(90)" enable="true"/>
+                <call expression="masini_sens_opus2.setLocation(207,90)" expression-java="masini_sens_opus2.setLocation(207, 90)" enable="true"/>
+                <variable type="Masini_sens_opus" type-java="Masini_sens_opus" name="masini_sens_opus3" value="new Masini_sens_opus()" value-java=" new Masini_sens_opus()" enable="true"/>
+                <call expression="addObject(masini_sens_opus3,313,128)" expression-java="addObject(masini_sens_opus3, 313, 128)" enable="true"/>
+                <call expression="masini_sens_opus3.turn(90)" expression-java="masini_sens_opus3.turn(90)" enable="true"/>
+                <call expression="masini_sens_opus3.setLocation(374,162)" expression-java="masini_sens_opus3.setLocation(374, 162)" enable="true"/>
+            </body>
+        </method>
+        <method access="public" type="void" type-java="void" name="act" enable="true">
+            <javadoc xml:space="preserve"/>
+            <params/>
+            <throws/>
+            <body/>
+        </method>
+    </methods>
+</class>
